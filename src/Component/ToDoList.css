@@ -1,0 +1,61 @@
+.main-head{
+    font-size: 60px;
+    font-weight: 700;
+
+    margin: 50px 12px;
+}
+.ToDoContainer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+.lblTask{
+    width: 500px;
+    height: 40px;
+    border-style: none;
+    padding: 5px 12px;
+}
+.btnEdit{
+
+    background-color: #C79DF2;
+    box-shadow: 0px 2px 5px #E5E5E5;
+    color: white;
+    border-style: none;
+    font-size: 16px;
+    padding: 5px 5px;
+    width: 50px;
+    height: 30px;
+    margin: auto;
+    float: right;
+    border-radius: 50%;
+    transition:background-color 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+.btnEdit:hover{
+    background-color: #D871F6;
+    color:white;
+    
+}
+.btnDelete{
+    background-color: #C79DF2;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px #E5E5E5;
+    color: white;
+    border-style: none;
+    font-size: 16px;
+    padding: 5px 5px;
+    width: 60px;
+    height: 30px;
+    margin: auto;
+    float: right;
+    transition:background-color 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+.btnDelete:hover{
+    background-color: #D871F6;
+    color:white;
+    
+}

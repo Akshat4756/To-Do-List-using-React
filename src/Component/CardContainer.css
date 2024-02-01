@@ -1,0 +1,21 @@
+.card-container{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background-color: #FFFFFF;
+    margin: 12px 12px;
+    width: 50%;
+    transition: 1s smooth;
+}
+.card-container:hover{
+    box-shadow: 0px 12px 20px grey;
+    transition:box-shadow 0.6s ease-in-out ;
+}
+.main-head{
+    font-size: 60px;
+    font-weight: 700;
+
+    margin: 50px 12px;
+}
